@@ -1,0 +1,37 @@
+h1:hover{
+	color:blue;
+	background-color: yellow;
+	font-size:200px;
+}
+
+a:first-child{
+	text-decoration: none;
+	font-size:70px;
+	margin-left:500px;
+}
+
+a:nth-child(3){
+	text-decoration: line-through;
+	font-size:20px;
+	margin-left:400px;
+	margin-top: 500px;
+}
+
+a:hover{
+	font-size:50px;
+	margin-right:20px;
+	background-color: orange;
+}
+body:first-child{
+	width:200px;
+	height:30px;
+	border:10px dotted blue;
+}
+.fixed:link{
+	font-size:100px;
+	position:fixed;
+	bottom:100;
+	left:0;
+	height:10px;
+	color:#09d89;
+}

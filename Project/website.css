@@ -1,0 +1,21 @@
+.jumbotron {
+	width:100%;
+}
+
+.container:nth-child(1) {
+	margin-left: 10px;
+}
+
+.categories li{
+	border-radius: 10px;
+	font-color: #FFFFFF;
+}
+
+.img1 {
+	margin-right: 0px;
+}
+
+body {
+	background-image: url("https://d13yacurqjgara.cloudfront.net/users/635160/screenshots/1698519/01_tumblr_mzv323zyjw1qd8bbxo1_1280_1x.png")
+	opacity: 0.5;
+}
