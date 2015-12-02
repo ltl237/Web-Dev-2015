@@ -12,3 +12,12 @@
     filter:alpha(opacity=80);
 
 }
+
+.navbar-default {
+    
+    border-color: violet;
+}
+
+#wrapper {
+    border-radius: 10px;
+}
