@@ -13,11 +13,38 @@
 
 }
 
+#k-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('http://img13.deviantart.net/924e/i/2013/364/b/d/kobe_bryant___heroes_come_and_go_but_legends____by_burakkoklunar-d7026kr.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.35;
+    filter:alpha(opacity=80);
+
+}
 .navbar-default {
-    
+    margin-left: 30px;
+    margin-right: 30px;
     border-color: violet;
 }
 
+
+}
 #wrapper {
     border-radius: 10px;
+}
+
+* {
+    font-family: tahoma;
+}
+
+.jumbotron img{
+    height:60%;
+    width:auto;
+    text-align: center;
 }
