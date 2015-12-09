@@ -9,8 +9,7 @@
     background-attachment: fixed;
     background-size: 100%;
     opacity: 0.35;
-    filter:alpha(opacity=80);
-
+    z-index: -1;
 }
 
 #k-background {
@@ -28,10 +27,13 @@
 
 }
 .navbar-default {
-    
+    margin-left: 30px;
+    margin-right: 30px;
     border-color: violet;
 }
 
+
+}
 #wrapper {
     border-radius: 10px;
 }
@@ -44,4 +46,17 @@
     height:60%;
     width:auto;
     text-align: center;
+}
+
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  background-color: #C0C0c0;
+  width: 100%;
+  text-align: center;
+  border:1px solid violet;
+  font-family: tahoma;
 }
