@@ -27,6 +27,7 @@
 
 }
 .navbar-default {
+    width:auto;
     margin-left: 30px;
     margin-right: 30px;
     border-color: violet;
@@ -50,12 +51,14 @@
 
 
 #footer {
+  margin-left: 30px;
+  margin-right: 30px;
   position: fixed;
   bottom: 0;
   left: 0;
   height: 25px;
-  background-color: #C0C0c0;
-  width: 100%;
+  background-color: white;
+  width: auto;
   text-align: center;
   border:1px solid violet;
   font-family: tahoma;
